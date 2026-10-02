@@ -6,14 +6,11 @@ public class LinearMovement : MonoBehaviour
 
     private Rigidbody rb;
 
-    private bool isGrounded;
-
     void Start()
     {
         rb = GetComponent<Rigidbody>();
     }
 
-    // Update is called once per frame
     void Update()
     {
   
